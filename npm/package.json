@@ -1,13 +1,17 @@
 {
   "name": "wego-cli",
-  "version": "0.0.1-beta.0",
+  "version": "0.0.1",
   "description": "A frontend templates cli tool",
   "main": "index.js",
   "scripts": {
     "postinstall": "go2npm install",
     "preuninstall": "go2npm uninstall"
   },
-  "keywords": ["wego-cli", "wego", "frontend templates cli"],
+  "keywords": [
+    "wego-cli",
+    "wego",
+    "frontend templates cli"
+  ],
   "author": "yi.lei",
   "repository": {
     "type": "git",
@@ -17,12 +21,12 @@
   "go2npm": {
     "username": "LYfirstday",
     "repoName": "wego-cli",
-    "tagName": "v0.0.1-beta.0",
-    "version": "0.0.1-beta.0",
+    "tagName": "v0.0.1",
+    "version": "0.0.1",
     "name": "wego-cli"
   },
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "go2npm": "^1.1.0"
   }
 }
