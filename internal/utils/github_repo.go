@@ -62,6 +62,7 @@ func ValidateConfiguration(configFilePath string) {
 	if configInstance.GithubToken != "" {
 		configInstance.IsPrivate = true
 	}
+
 	LocalConfigFile = configInstance
 }
 

@@ -43,6 +43,7 @@ func GetConfigFileInfo() RepoConfigFile {
 	if err != nil {
 		LogError("Fetch config file error: ", err)
 	}
+	CheckResponse(response)
 	// 解析json res
 	fileRes := GithubResponseFile{}
 	parseJsonErr := json.Unmarshal(response.Body(), &fileRes)
@@ -125,6 +126,7 @@ func (f *RepoConfigFile) LoadDependencies(templateType string, templateName stri
 	if len(deps) > 0 {
 		fmt.Println(color.Red("Loading dependencies..."))
 		for _, dep := range deps {
+			f.LoadDependencies("components", strings.Split(dep, " ")[0])
 			RunWriteJob("components", strings.Split(dep, " ")[0])
 		}
 	}

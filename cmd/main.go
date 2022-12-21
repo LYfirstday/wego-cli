@@ -96,6 +96,13 @@ func main() {
 						Name:    "component",
 						Usage:   "wego s com      show all component-templates",
 						Aliases: []string{"com"},
+						Flags: []cli.Flag{
+							&cli.StringFlag{
+								Name:    "config",
+								Usage:   "Specify the profile",
+								Aliases: []string{"c"},
+							},
+						},
 						Action: func(cCtx *cli.Context) error {
 							configFilePath := cCtx.Value("config")
 							if configFilePath != nil && configFilePath != "" {
@@ -128,6 +135,13 @@ func main() {
 						Name:    "project",
 						Usage:   "wego s pro      Show all project-templates",
 						Aliases: []string{"pro"},
+						Flags: []cli.Flag{
+							&cli.StringFlag{
+								Name:    "config",
+								Usage:   "Specify the profile",
+								Aliases: []string{"c"},
+							},
+						},
 						Action: func(cCtx *cli.Context) error {
 							configFilePath := cCtx.Value("config")
 							if configFilePath != nil && configFilePath != "" {
@@ -147,6 +161,7 @@ func main() {
 								ProjectTemplate string
 								ProName         string
 							}{}
+
 							// 选择一个工程模板，并下载到本地
 							utils.GivenSurveySelect("ProjectTemplate", "Chose a project", configFile.GetProjectNames(), &answers)
 							selectProName := answers.ProjectTemplate

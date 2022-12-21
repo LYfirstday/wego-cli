@@ -26,14 +26,16 @@ func CreateFolder(createPath string, item GithubResponseFile) {
 	if err != nil {
 		LogError("Request folder error: ", err)
 	}
+	CheckResponse(response)
+
 	fileRes := []GithubResponseFile{}
 	parseJsonErr := json.Unmarshal(response.Body(), &fileRes)
 	if parseJsonErr != nil {
 		LogError("Parse json error: ", parseJsonErr)
 	}
 	WriteToLocal(fileRes, createPath)
+	color.Println(color.Green(createPath), ": create done!")
 	defer func() {
-		color.Println(color.Green(createPath), ": create done!")
 		variables.WriteWg.Done()
 	}()
 }
@@ -49,6 +51,8 @@ func CreateFile(createPath string, item GithubResponseFile) {
 	if resErr != nil {
 		LogError("Request file error: ", resErr)
 	}
+	CheckResponse(response)
+
 	fileRes := GithubResponseFile{}
 	parseJsonErr := json.Unmarshal(response.Body(), &fileRes)
 	if parseJsonErr != nil {
@@ -67,8 +71,8 @@ func CreateFile(createPath string, item GithubResponseFile) {
 	if wErr != nil {
 		LogError("Write file error: ", wErr)
 	}
+	color.Println(color.Green(filePath), ": write done!")
 	defer func() {
-		color.Println(color.Green(filePath), ": write done!")
 		variables.WriteWg.Done()
 		file.Close()
 	}()
@@ -146,6 +150,7 @@ func RunWriteJob(loadType string, folderName string, newName ...string) {
 			fmt.Printf("Request %s template error: %s", loadType, err)
 			os.Exit(0)
 		}
+		CheckResponse(response)
 
 		// 将模板文件夹数据解析到fileRes中，其实就是模板文件夹下的所有文件集合
 		fileRes := []GithubResponseFile{}
