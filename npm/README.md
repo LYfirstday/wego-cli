@@ -113,6 +113,7 @@ npx wego -h[-v]
 ```shell
 wego -h[-v]
 ```
+![Image text](https://raw.githubusercontent.com/LYfirstday/wego-cli/main/images/is_success.png)
 
 ### 第三步
 
@@ -161,6 +162,8 @@ wego s pro
 ```
 
 执行命令后，使用箭头按键选择需要下载的模板，所有模板下载到本地的文件目录都是以当前执行shell命令的目录路径为基准，components中的模板会下载到: {{ cmdPath }}/src/components/ 目录下；pages中的模板会下载到: {{ cmdPath }}/src/pages/ 目录下；projects中的模板会下载到: {{ cmdPath }}/ 目录下；目前不支持自定义下载至目标文件路径；如果组件、页面模板文件夹在本地已存在则会略过(不覆盖原文件夹文件)。
+
+![Image text](https://raw.githubusercontent.com/LYfirstday/wego-cli/main/images/show_all.png)
 
 ## Q & A
 

@@ -11,3 +11,4 @@ npm install
 ```shell
 npx wego s page
 ```
+![Image text](https://raw.githubusercontent.com/LYfirstday/wego-cli/main/images/show_page.png)
