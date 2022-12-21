@@ -187,3 +187,7 @@ wego s pro
 
 这是因为github对没有验证的ip地址每小时有请求数量限制，详情请[查看](https://docs.github.com/zh/rest/rate-limit?apiVersion=2022-11-28)
 解决方案：添加githubToken，也就无论你的模板仓库是共有或私有的都最好添加上有读权限的token
+
+## License
+
+MIT
