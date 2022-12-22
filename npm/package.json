@@ -4,8 +4,8 @@
   "description": "A frontend templates cli tool",
   "main": "index.js",
   "scripts": {
-    "postinstall": "npx go2npm install",
-    "preuninstall": "npx go2npm uninstall"
+    "postinstall": "go2npm install",
+    "preuninstall": "go2npm uninstall"
   },
   "keywords": [
     "wego-cli",
