@@ -10,6 +10,6 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "wego-cli": "^1.0.0"
+    "wego-cli": "^1.0.5"
   }
 }

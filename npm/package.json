@@ -1,6 +1,6 @@
 {
   "name": "wego-cli",
-  "version": "1.0.4", 
+  "version": "1.0.5", 
   "description": "A frontend templates cli tool",
   "main": "index.js",
   "scripts": {
@@ -27,6 +27,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "go2npm": "^1.2.9"
+    "go2npm": "^1.2.10"
   }
 }
