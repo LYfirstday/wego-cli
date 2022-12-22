@@ -27,6 +27,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "go2npm": "^1.2.8"
+    "go2npm": "^1.2.9"
   }
 }
