@@ -1,6 +1,6 @@
 {
   "name": "wego-cli",
-  "version": "1.0.3",
+  "version": "1.0.3", 
   "description": "A frontend templates cli tool",
   "main": "index.js",
   "scripts": {
