@@ -1,0 +1,24 @@
+{
+  "name": "wego-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./bin/index.js",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc"
+  },
+  "bin": {
+    "wego": "./bin/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.6.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@lygo/wego-rs": "^0.0.4",
+    "commander": "^11.0.0"
+  }
+}

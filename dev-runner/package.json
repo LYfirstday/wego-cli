@@ -1,0 +1,15 @@
+{
+  "name": "dev-runner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx wego -h"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "wego-cli": "file:../source"
+  }
+}
