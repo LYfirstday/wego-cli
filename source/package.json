@@ -1,5 +1,5 @@
 {
-  "name": "wego-cli",
+  "name": "weeego-cli",
   "version": "1.0.0",
   "description": "",
   "main": "./bin/index.js",
@@ -8,7 +8,7 @@
     "build": "tsc"
   },
   "bin": {
-    "wego": "./bin/index.js"
+    "weeego": "./bin/index.js"
   },
   "keywords": [],
   "author": "",
