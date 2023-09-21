@@ -18,7 +18,7 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
-    "@lygo/wego-rs": "^0.0.4",
+    "@lygo/wego-rs": "^0.0.6",
     "commander": "^11.0.0"
   }
 }

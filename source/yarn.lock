@@ -2,344 +2,53 @@
 # yarn lockfile v1
 
 
-"@inquirer/checkbox@^1.3.9":
-  version "1.3.9"
-  resolved "https://registry.npmjs.org/@inquirer/checkbox/-/checkbox-1.3.9.tgz#7bce7835ba9a407e79a71841bfdbdf2db5b9a8ef"
-  integrity sha512-PQJ0XEijmoXxp7QBnUIiYvqx9YC4c/MyJY5UIDXzsyrSY56xuWyi95ggaKq4KMbcjXfxmXSwuqEYbzWu3hAFuQ==
-  dependencies:
-    "@inquirer/core" "^4.0.0"
-    "@inquirer/type" "^1.1.2"
-    ansi-escapes "^4.3.2"
-    chalk "^4.1.2"
-    figures "^3.2.0"
+"@lygo/wego-rs-darwin-arm64@0.0.6":
+  version "0.0.6"
+  resolved "https://registry.npmjs.org/@lygo/wego-rs-darwin-arm64/-/wego-rs-darwin-arm64-0.0.6.tgz#c9605c419cfa3bb6d3da21911eb61bf21dd4d624"
+  integrity sha512-3kcFuDlca/goMidEtWRrBni5l3QZvgUzjVqRlsVeaj1PV+Cfg9XCU9f7OPE5mJMHCTq1dS9vU7FQBdpOJ0UXGg==
 
-"@inquirer/confirm@^2.0.10":
-  version "2.0.10"
-  resolved "https://registry.npmjs.org/@inquirer/confirm/-/confirm-2.0.10.tgz#223b5d99e0476298a053e1f85cee83bf6d2444c2"
-  integrity sha512-P2B3LgCn26EfK9LeSGbi6WWNg/Q7ZTZYERZ2YRJtNaQC4dEXDWt5xDkgKEHXopBeaBXrlBpHQ7Lb3IdhvWnCfQ==
-  dependencies:
-    "@inquirer/core" "^4.0.0"
-    "@inquirer/type" "^1.1.2"
-    chalk "^4.1.2"
+"@lygo/wego-rs-darwin-x64@0.0.6":
+  version "0.0.6"
+  resolved "https://registry.npmjs.org/@lygo/wego-rs-darwin-x64/-/wego-rs-darwin-x64-0.0.6.tgz#db0af6db2c2696018f9af77cb888cbd9473081b0"
+  integrity sha512-Pb6x4P+UBL/yPYcvbM8gyazw1ZLBt4vyXAjpbnUw4pHuTIkPcvCayGinuZJhxj0wdxiwTKv3Y7lU/kVwFVuLVg==
 
-"@inquirer/core@^4.0.0":
-  version "4.0.0"
-  resolved "https://registry.npmjs.org/@inquirer/core/-/core-4.0.0.tgz#d82fa2f5f180106878da239e933767d1feeadcf5"
-  integrity sha512-YBo2o6ijIatBU1l1ziByZeVF4YdzKQnYs8tBJ8SnysgmK3YYQz/L/w5w7QXs4OVnbzTWhXiC4mn9gQGbDihsPQ==
-  dependencies:
-    "@inquirer/type" "^1.1.2"
-    "@types/mute-stream" "^0.0.1"
-    "@types/node" "^20.5.6"
-    "@types/wrap-ansi" "^3.0.0"
-    ansi-escapes "^4.3.2"
-    chalk "^4.1.2"
-    cli-spinners "^2.9.0"
-    cli-width "^4.1.0"
-    figures "^3.2.0"
-    mute-stream "^1.0.0"
-    run-async "^3.0.0"
-    strip-ansi "^6.0.1"
-    wrap-ansi "^6.2.0"
+"@lygo/wego-rs-linux-x64-gnu@0.0.6":
+  version "0.0.6"
+  resolved "https://registry.npmjs.org/@lygo/wego-rs-linux-x64-gnu/-/wego-rs-linux-x64-gnu-0.0.6.tgz#be09c600a6492e1fea975c0cba5259b5c22864c3"
+  integrity sha512-3+3UsZ8ZZd+z9pWFk02yURYgGjqiDKooxz1X1la2bzdX6uCD1DwZpNvXSpBdDKvsQX1jIEiZhe+CeW/jw2+OsA==
 
-"@inquirer/editor@^1.2.8":
-  version "1.2.8"
-  resolved "https://registry.npmjs.org/@inquirer/editor/-/editor-1.2.8.tgz#2721b4da06221727f2bace2fb62a423b6d85f11f"
-  integrity sha512-DzvzhtLmkVEzfphCbEQz63IuTwmgpeSyyaKrHwCsKYr/eUaMLksQz33VrHbwYbsBq4oNm14OkikrVIMC/XhhPw==
-  dependencies:
-    "@inquirer/core" "^4.0.0"
-    "@inquirer/type" "^1.1.2"
-    chalk "^4.1.2"
-    external-editor "^3.1.0"
+"@lygo/wego-rs-linux-x64-musl@0.0.6":
+  version "0.0.6"
+  resolved "https://registry.npmjs.org/@lygo/wego-rs-linux-x64-musl/-/wego-rs-linux-x64-musl-0.0.6.tgz#6009da2fa0729488e1d45af99dbd14c24c992b38"
+  integrity sha512-6hTW3pPmcL3ZWnnUN9HplqHeZhVPpa2NmOvcRrnIW7izdeewsUqKCwEimyEk3FiiP25xZ523+xXYaizR9pTutA==
 
-"@inquirer/expand@^1.1.9":
-  version "1.1.9"
-  resolved "https://registry.npmjs.org/@inquirer/expand/-/expand-1.1.9.tgz#0ffc1d157a981b58603ae447f561d07ffd7a9c2a"
-  integrity sha512-8XuyeEVAEDCuDfK4+LVsOKfIOaC/Hen5nq+yMgyoQi4DgG77uLFtzjFBgOC0+HTEOugznF66DoWskUOmIN4x5Q==
-  dependencies:
-    "@inquirer/core" "^4.0.0"
-    "@inquirer/type" "^1.1.2"
-    chalk "^4.1.2"
-    figures "^3.2.0"
+"@lygo/wego-rs-win32-x64-msvc@0.0.6":
+  version "0.0.6"
+  resolved "https://registry.npmjs.org/@lygo/wego-rs-win32-x64-msvc/-/wego-rs-win32-x64-msvc-0.0.6.tgz#e886b27b4c0b3074e34ba28f903abb21358246b7"
+  integrity sha512-Gpjkk0TUX2JZdr92qd5EFEhRCGO8rijeRy8ZLyNJPFpWVBF0JoV0oc6hYoF8Qiy5/4LvjjY3AEAIGsRplvUlBQ==
 
-"@inquirer/input@^1.2.9":
-  version "1.2.9"
-  resolved "https://registry.npmjs.org/@inquirer/input/-/input-1.2.9.tgz#66b27200df97a808e082aad26f1ee0c05e9e78f7"
-  integrity sha512-FC/wnXklGwUcGtlOU67T3pKHu6l1L5tIOHbZcqoLTlsdG8ukNARrX8h9Xrdgfr29t/LbvSxqdvYRmn4u2XRz0Q==
-  dependencies:
-    "@inquirer/core" "^4.0.0"
-    "@inquirer/type" "^1.1.2"
-    chalk "^4.1.2"
-
-"@inquirer/password@^1.1.9":
-  version "1.1.9"
-  resolved "https://registry.npmjs.org/@inquirer/password/-/password-1.1.9.tgz#ee691445d6c8f7f3529fc1195b0629ed7b3bf808"
-  integrity sha512-6L/SimCHutKVPDjkJBAkGO0POdJA3VXbdgAhCsX9katuyQSiMq5WGGa2Nqv7zXqiZxL5YuTPFqNNKKq00Q1HxA==
-  dependencies:
-    "@inquirer/input" "^1.2.9"
-    "@inquirer/type" "^1.1.2"
-    ansi-escapes "^4.3.2"
-    chalk "^4.1.2"
-
-"@inquirer/prompts@^3.0.4":
-  version "3.0.4"
-  resolved "https://registry.npmjs.org/@inquirer/prompts/-/prompts-3.0.4.tgz#8e6f071fe2d9a8b5fe5a2c573add90758c443618"
-  integrity sha512-xSBQjaj0zKGb+o6MiTd/Igl609JOwFf/DyU0vyiFiFR7u65n8JgCFVWLSeOWEFUP8L+AOGxZolhvuJ8KgCxIrg==
-  dependencies:
-    "@inquirer/checkbox" "^1.3.9"
-    "@inquirer/confirm" "^2.0.10"
-    "@inquirer/core" "^4.0.0"
-    "@inquirer/editor" "^1.2.8"
-    "@inquirer/expand" "^1.1.9"
-    "@inquirer/input" "^1.2.9"
-    "@inquirer/password" "^1.1.9"
-    "@inquirer/rawlist" "^1.2.9"
-    "@inquirer/select" "^1.2.9"
-
-"@inquirer/rawlist@^1.2.9":
-  version "1.2.9"
-  resolved "https://registry.npmjs.org/@inquirer/rawlist/-/rawlist-1.2.9.tgz#e1167365a104940a3741c44058f17fe592f30922"
-  integrity sha512-HqZeTP/F0l9LE0uCSbPHUbxVjoh8TLPzy8+BJzXyS9Na+XbbMOGN7KVNkNEGY+GH7X05jdOtd4gsO9DtAJUM2Q==
-  dependencies:
-    "@inquirer/core" "^4.0.0"
-    "@inquirer/type" "^1.1.2"
-    chalk "^4.1.2"
-
-"@inquirer/select@^1.2.9":
-  version "1.2.9"
-  resolved "https://registry.npmjs.org/@inquirer/select/-/select-1.2.9.tgz#0a4a0392e6de8b3b9ce888c782d34625ae3b662d"
-  integrity sha512-WXMQfUGzxrxdbDCU50xKqYCMoz+SOZnyV8sOeEJ8Ei5AjANz1fap3xA7EF8aZLJ9K1//m4OnyS/XDoi31Tqn+g==
-  dependencies:
-    "@inquirer/core" "^4.0.0"
-    "@inquirer/type" "^1.1.2"
-    ansi-escapes "^4.3.2"
-    chalk "^4.1.2"
-    figures "^3.2.0"
-
-"@inquirer/type@^1.1.2":
-  version "1.1.2"
-  resolved "https://registry.npmjs.org/@inquirer/type/-/type-1.1.2.tgz#5c576904707cec5f6ee0097b0a3f355e617ae7c8"
-  integrity sha512-lowHTIBAE/bltg7/EchMDLfKUdT0BCyS2xzqgjsyKADybz2QZ0cLWtDXzjT1C6rdZI07Ng9jU4d2R9rDoU+6Hw==
-
-"@lygo/wego-rs-darwin-arm64@0.0.4":
-  version "0.0.4"
-  resolved "https://registry.npmjs.org/@lygo/wego-rs-darwin-arm64/-/wego-rs-darwin-arm64-0.0.4.tgz#3155064063919fe2eaa0dfa55f212d298492dce4"
-  integrity sha512-/knH2Wj5IdOTds5XC1A8UtssXMomj3Ht4tRgj0dgCx0Y5n1vnLv3rQLGSE/ofHcHy0pNKLOeCAJoUpFfgPVswQ==
-
-"@lygo/wego-rs-darwin-x64@0.0.4":
-  version "0.0.4"
-  resolved "https://registry.npmjs.org/@lygo/wego-rs-darwin-x64/-/wego-rs-darwin-x64-0.0.4.tgz#a6dfc15f81034079132546918fc0fd5616824623"
-  integrity sha512-mwE+ZOCkAX3UofvKHdRzk5TGv0dOlipgNqF+1RXnNn5YydUXuOEENzAzWDRXjQnHLj6aKeyMn19piC+AIF06zw==
-
-"@lygo/wego-rs-linux-x64-gnu@0.0.4":
-  version "0.0.4"
-  resolved "https://registry.npmjs.org/@lygo/wego-rs-linux-x64-gnu/-/wego-rs-linux-x64-gnu-0.0.4.tgz#c76a5a8da72e8d261f0b0768a5b24b73bbcb15fd"
-  integrity sha512-g2KXrQCZtECZuFgxiY6uhHMqDLKKN7zX6V3aFybcd5gO/U1YFWeePDZ1naqDj7ygPwBQ5xYyDYoNHjlls/XJDw==
-
-"@lygo/wego-rs-linux-x64-musl@0.0.4":
-  version "0.0.4"
-  resolved "https://registry.npmjs.org/@lygo/wego-rs-linux-x64-musl/-/wego-rs-linux-x64-musl-0.0.4.tgz#09eec8c65e715c23566e47414fcfc50436a6a509"
-  integrity sha512-3WR1pg/p6y0H3rYm9KBx/lgHQu0ag3QbcZ9i4pdP3zBOF2uCGyDYO/K4Mqx9ywoTV6X9DMZjc51Wx8uG/uDyVQ==
-
-"@lygo/wego-rs-win32-x64-msvc@0.0.4":
-  version "0.0.4"
-  resolved "https://registry.npmjs.org/@lygo/wego-rs-win32-x64-msvc/-/wego-rs-win32-x64-msvc-0.0.4.tgz#3081ac739fa8d5eef431ecff3a7b23c10a37eab8"
-  integrity sha512-/0f7xOEL/Z6NytG+4CgSLxwtHei/2z5HWOV1i8waGgiBCTWuNAOuw/fo89mNE5eATKUjPlaLs7CHc7PRudcvfw==
-
-"@lygo/wego-rs@^0.0.4":
-  version "0.0.4"
-  resolved "https://registry.npmjs.org/@lygo/wego-rs/-/wego-rs-0.0.4.tgz#593ca116e68d99d8a6b0c897c19a7f8ac80bd685"
-  integrity sha512-8/FplzCZiU0FF1eIf5AhyisnW+Vx6m4cgAX8iWuKTjRYKUA9RpYDzOGEtxf+kE4abFQTpnw2GBnxGDRo7iDezw==
+"@lygo/wego-rs@^0.0.6":
+  version "0.0.6"
+  resolved "https://registry.npmjs.org/@lygo/wego-rs/-/wego-rs-0.0.6.tgz#2fbceba17373d146e117f87f637276b7cea5ef32"
+  integrity sha512-mQtPA4865D5gIuvJXQyB5zgsqbCH8UAEiUHkqoivDcwHlvYWxeIanLYbRRWe+LisMCF4V+zlCvwIh/fB7q/giQ==
   optionalDependencies:
-    "@lygo/wego-rs-darwin-arm64" "0.0.4"
-    "@lygo/wego-rs-darwin-x64" "0.0.4"
-    "@lygo/wego-rs-linux-x64-gnu" "0.0.4"
-    "@lygo/wego-rs-linux-x64-musl" "0.0.4"
-    "@lygo/wego-rs-win32-x64-msvc" "0.0.4"
+    "@lygo/wego-rs-darwin-arm64" "0.0.6"
+    "@lygo/wego-rs-darwin-x64" "0.0.6"
+    "@lygo/wego-rs-linux-x64-gnu" "0.0.6"
+    "@lygo/wego-rs-linux-x64-musl" "0.0.6"
+    "@lygo/wego-rs-win32-x64-msvc" "0.0.6"
 
-"@types/mute-stream@^0.0.1":
-  version "0.0.1"
-  resolved "https://registry.npmjs.org/@types/mute-stream/-/mute-stream-0.0.1.tgz#8ec7d16d51e2ceb054d8be0226250169d17af5b2"
-  integrity sha512-0yQLzYhCqGz7CQPE3iDmYjhb7KMBFOP+tBkyw+/Y2YyDI5wpS7itXXxneN1zSsUwWx3Ji6YiVYrhAnpQGS/vkw==
-  dependencies:
-    "@types/node" "*"
-
-"@types/node@*", "@types/node@^20.5.6", "@types/node@^20.6.0":
+"@types/node@^20.6.0":
   version "20.6.0"
   resolved "https://registry.npmjs.org/@types/node/-/node-20.6.0.tgz#9d7daa855d33d4efec8aea88cd66db1c2f0ebe16"
   integrity sha512-najjVq5KN2vsH2U/xyh2opaSEz6cZMR2SetLIlxlj08nOcmPOemJmUK2o4kUzfLqfrWE0PIrNeE16XhYDd3nqg==
-
-"@types/wrap-ansi@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.npmjs.org/@types/wrap-ansi/-/wrap-ansi-3.0.0.tgz#18b97a972f94f60a679fd5c796d96421b9abb9fd"
-  integrity sha512-ltIpx+kM7g/MLRZfkbL7EsCEjfzCcScLpkg37eXEtx5kmrAKBkTJwd1GIAjDSL8wTpM6Hzn5YO4pSb91BEwu1g==
-
-ansi-escapes@^4.3.2:
-  version "4.3.2"
-  resolved "https://registry.npmjs.org/ansi-escapes/-/ansi-escapes-4.3.2.tgz#6b2291d1db7d98b6521d5f1efa42d0f3a9feb65e"
-  integrity sha512-gKXj5ALrKWQLsYG9jlTRmR/xKluxHV+Z9QEwNIgCfM1/uwPMCuzVVnh5mwTd+OuBZcwSIMbqssNWRm1lE51QaQ==
-  dependencies:
-    type-fest "^0.21.3"
-
-ansi-regex@^5.0.1:
-  version "5.0.1"
-  resolved "https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.1.tgz#082cb2c89c9fe8659a311a53bd6a4dc5301db304"
-  integrity sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==
-
-ansi-styles@^4.0.0, ansi-styles@^4.1.0:
-  version "4.3.0"
-  resolved "https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz#edd803628ae71c04c85ae7a0906edad34b648937"
-  integrity sha512-zbB9rCJAT1rbjiVDb2hqKFHNYLxgtk8NURxZ3IZwD3F6NtxbXZQCnnSi1Lkx+IDohdPlFp222wVALIheZJQSEg==
-  dependencies:
-    color-convert "^2.0.1"
-
-chalk@^4.1.2:
-  version "4.1.2"
-  resolved "https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz#aac4e2b7734a740867aeb16bf02aad556a1e7a01"
-  integrity sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==
-  dependencies:
-    ansi-styles "^4.1.0"
-    supports-color "^7.1.0"
-
-chardet@^0.7.0:
-  version "0.7.0"
-  resolved "https://registry.npmjs.org/chardet/-/chardet-0.7.0.tgz#90094849f0937f2eedc2425d0d28a9e5f0cbad9e"
-  integrity sha512-mT8iDcrh03qDGRRmoA2hmBJnxpllMR+0/0qlzjqZES6NdiWDcZkCNAk4rPFZ9Q85r27unkiNNg8ZOiwZXBHwcA==
-
-cli-spinners@^2.9.0:
-  version "2.9.0"
-  resolved "https://registry.npmjs.org/cli-spinners/-/cli-spinners-2.9.0.tgz#5881d0ad96381e117bbe07ad91f2008fe6ffd8db"
-  integrity sha512-4/aL9X3Wh0yiMQlE+eeRhWP6vclO3QRtw1JHKIT0FFUs5FjpFmESqtMvYZ0+lbzBw900b95mS0hohy+qn2VK/g==
-
-cli-width@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.npmjs.org/cli-width/-/cli-width-4.1.0.tgz#42daac41d3c254ef38ad8ac037672130173691c5"
-  integrity sha512-ouuZd4/dm2Sw5Gmqy6bGyNNNe1qt9RpmxveLSO7KcgsTnU7RXfsw+/bukWGo1abgBiMAic068rclZsO4IWmmxQ==
-
-color-convert@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz#72d3a68d598c9bdb3af2ad1e84f21d896abd4de3"
-  integrity sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==
-  dependencies:
-    color-name "~1.1.4"
-
-color-name@~1.1.4:
-  version "1.1.4"
-  resolved "https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz#c2a09a87acbde69543de6f63fa3995c826c536a2"
-  integrity sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==
 
 commander@^11.0.0:
   version "11.0.0"
   resolved "https://registry.npmjs.org/commander/-/commander-11.0.0.tgz#43e19c25dbedc8256203538e8d7e9346877a6f67"
   integrity sha512-9HMlXtt/BNoYr8ooyjjNRdIilOTkVJXB+GhxMTtOKwk0R4j4lS4NpjuqmRxroBfnfTSHQIHQB7wryHhXarNjmQ==
 
-emoji-regex@^8.0.0:
-  version "8.0.0"
-  resolved "https://registry.npmjs.org/emoji-regex/-/emoji-regex-8.0.0.tgz#e818fd69ce5ccfcb404594f842963bf53164cc37"
-  integrity sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==
-
-escape-string-regexp@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
-  integrity sha512-vbRorB5FUQWvla16U8R/qgaFIya2qGzwDrNmCZuYKrbdSUMG6I1ZCGQRefkRVhuOkIGVne7BQ35DSfo1qvJqFg==
-
-external-editor@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.npmjs.org/external-editor/-/external-editor-3.1.0.tgz#cb03f740befae03ea4d283caed2741a83f335495"
-  integrity sha512-hMQ4CX1p1izmuLYyZqLMO/qGNw10wSv9QDCPfzXfyFrOaCSSoRfqE1Kf1s5an66J5JZC62NewG+mK49jOCtQew==
-  dependencies:
-    chardet "^0.7.0"
-    iconv-lite "^0.4.24"
-    tmp "^0.0.33"
-
-figures@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.npmjs.org/figures/-/figures-3.2.0.tgz#625c18bd293c604dc4a8ddb2febf0c88341746af"
-  integrity sha512-yaduQFRKLXYOGgEn6AZau90j3ggSOyiqXU0F9JZfeXYhNa+Jk4X+s45A2zg5jns87GAFa34BBm2kXw4XpNcbdg==
-  dependencies:
-    escape-string-regexp "^1.0.5"
-
-has-flag@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.npmjs.org/has-flag/-/has-flag-4.0.0.tgz#944771fd9c81c81265c4d6941860da06bb59479b"
-  integrity sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==
-
-iconv-lite@^0.4.24:
-  version "0.4.24"
-  resolved "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.24.tgz#2022b4b25fbddc21d2f524974a474aafe733908b"
-  integrity sha512-v3MXnZAcvnywkTUEZomIActle7RXXeedOR31wwl7VlyoXO4Qi9arvSenNQWne1TcRwhCL1HwLI21bEqdpj8/rA==
-  dependencies:
-    safer-buffer ">= 2.1.2 < 3"
-
-is-fullwidth-code-point@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.npmjs.org/is-fullwidth-code-point/-/is-fullwidth-code-point-3.0.0.tgz#f116f8064fe90b3f7844a38997c0b75051269f1d"
-  integrity sha512-zymm5+u+sCsSWyD9qNaejV3DFvhCKclKdizYaJUuHA83RLjb7nSuGnddCHGv0hk+KY7BMAlsWeK4Ueg6EV6XQg==
-
-mute-stream@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/mute-stream/-/mute-stream-1.0.0.tgz#e31bd9fe62f0aed23520aa4324ea6671531e013e"
-  integrity sha512-avsJQhyd+680gKXyG/sQc0nXaC6rBkPOfyHYcFb9+hdkqQkR9bdnkJ0AMZhke0oesPqIO+mFFJ+IdBc7mst4IA==
-
-os-tmpdir@~1.0.2:
-  version "1.0.2"
-  resolved "https://registry.npmjs.org/os-tmpdir/-/os-tmpdir-1.0.2.tgz#bbe67406c79aa85c5cfec766fe5734555dfa1274"
-  integrity sha512-D2FR03Vir7FIu45XBY20mTb+/ZSWB00sjU9jdQXt83gDrI4Ztz5Fs7/yy74g2N5SVQY4xY1qDr4rNddwYRVX0g==
-
-run-async@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.npmjs.org/run-async/-/run-async-3.0.0.tgz#42a432f6d76c689522058984384df28be379daad"
-  integrity sha512-540WwVDOMxA6dN6We19EcT9sc3hkXPw5mzRNGM3FkdN/vtE9NFvj5lFAPNwUDmJjXidm3v7TC1cTE7t17Ulm1Q==
-
-"safer-buffer@>= 2.1.2 < 3":
-  version "2.1.2"
-  resolved "https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
-  integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
-
-string-width@^4.1.0:
-  version "4.2.3"
-  resolved "https://registry.npmjs.org/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
-  integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
-  dependencies:
-    emoji-regex "^8.0.0"
-    is-fullwidth-code-point "^3.0.0"
-    strip-ansi "^6.0.1"
-
-strip-ansi@^6.0.0, strip-ansi@^6.0.1:
-  version "6.0.1"
-  resolved "https://registry.npmjs.org/strip-ansi/-/strip-ansi-6.0.1.tgz#9e26c63d30f53443e9489495b2105d37b67a85d9"
-  integrity sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==
-  dependencies:
-    ansi-regex "^5.0.1"
-
-supports-color@^7.1.0:
-  version "7.2.0"
-  resolved "https://registry.npmjs.org/supports-color/-/supports-color-7.2.0.tgz#1b7dcdcb32b8138801b3e478ba6a51caa89648da"
-  integrity sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==
-  dependencies:
-    has-flag "^4.0.0"
-
-tmp@^0.0.33:
-  version "0.0.33"
-  resolved "https://registry.npmjs.org/tmp/-/tmp-0.0.33.tgz#6d34335889768d21b2bcda0aa277ced3b1bfadf9"
-  integrity sha512-jRCJlojKnZ3addtTOjdIqoRuPEKBvNXcGYqzO6zWZX8KfKEpnGY5jfggJQ3EjKuu8D4bJRr0y+cYJFmYbImXGw==
-  dependencies:
-    os-tmpdir "~1.0.2"
-
-type-fest@^0.21.3:
-  version "0.21.3"
-  resolved "https://registry.npmjs.org/type-fest/-/type-fest-0.21.3.tgz#d260a24b0198436e133fa26a524a6d65fa3b2e37"
-  integrity sha512-t0rzBq87m3fVcduHDUFhKmyyX+9eo6WQjZvf51Ea/M0Q7+T374Jp1aUiyUl0GKxp8M/OETVHSDvmkyPgvX+X2w==
-
 typescript@^5.2.2:
   version "5.2.2"
   resolved "https://registry.npmjs.org/typescript/-/typescript-5.2.2.tgz#5ebb5e5a5b75f085f22bc3f8460fba308310fa78"
   integrity sha512-mI4WrpHsbCIcwT9cF4FZvr80QUeKvsUsUvKDoR+X/7XHQH98xYD8YHZg7ANtz2GtZt/CBq2QJ0thkGJMHfqc1w==
-
-wrap-ansi@^6.2.0:
-  version "6.2.0"
-  resolved "https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-6.2.0.tgz#e9393ba07102e6c91a3b221478f0257cd2856e53"
-  integrity sha512-r6lPcBGxZXlIcymEu7InxDMhdW0KDxpLgoFLcguasxCaJ/SOIZwINatK9KY/tf+ZrlywOKU0UDj3ATXUBfxJXA==
-  dependencies:
-    ansi-styles "^4.0.0"
-    string-width "^4.1.0"
-    strip-ansi "^6.0.0"
