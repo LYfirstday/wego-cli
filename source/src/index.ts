@@ -6,6 +6,7 @@ import {
   TemplateType,
 } from "@lygo/wego-rs";
 import { Command } from "commander";
+const packageJson = require("./../package.json");
 
 const program = new Command();
 
@@ -14,7 +15,7 @@ program
   .description(
     "CLI to download the frontend pages、components、projects template"
   )
-  .version("0.0.1");
+  .version(packageJson.version);
 
 program
   .command("init")

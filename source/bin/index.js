@@ -3,11 +3,12 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const wego_rs_1 = require("@lygo/wego-rs");
 const commander_1 = require("commander");
+const packageJson = require("./../package.json");
 const program = new commander_1.Command();
 program
     .name("Weee frontend templates utils")
     .description("CLI to download the frontend pages、components、projects template")
-    .version("0.0.1");
+    .version(packageJson.version);
 program
     .command("init")
     .description("Generate a wego.yaml config file")

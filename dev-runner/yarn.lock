@@ -44,7 +44,7 @@ commander@^11.0.0:
   integrity sha512-9HMlXtt/BNoYr8ooyjjNRdIilOTkVJXB+GhxMTtOKwk0R4j4lS4NpjuqmRxroBfnfTSHQIHQB7wryHhXarNjmQ==
 
 "wego-cli@file:../source":
-  version "1.0.0"
+  version "1.0.1"
   dependencies:
     "@lygo/wego-rs" "^0.0.6"
     commander "^11.0.0"
